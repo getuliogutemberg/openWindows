@@ -18,16 +18,34 @@ export function useFetchRecentProjects() {
         // 'getuliogutemberg',
         // 'liununu',
         // 'lavaexperience',
-        // 'openwindows',
-        
+      ];
 
+      const projectsToNotShowNames: string[] = [
+        'openWindows',
+        'crepsesalgados',
+        'ClioBalaPage',
+        'sistema',
+        'getuliogutemberg',
+        'liununu',
+        'viteApp',
+        'virtualizedCoop',
+        'next-social-apirest',
+        'Clone-Dall-e---Client',
+        'new-util',
+        'nodeChat',
+        'react-dos',
+        'next-form-builder',
+        'fullCycle',
+        'ReactHub',
       ];
 
       const recentUpdatedProjects = projetsToShownames.length > 0 ? data.filter(project => projetsToShownames.includes(project.name)) : data;
 
+      const resuts = recentUpdatedProjects.filter(project => !projectsToNotShowNames.includes(project.name));
+
       // .slice(0, 5); // 5 most recent repos on Github, excluding my account repo
 
-      setProjects(recentUpdatedProjects);
+      setProjects(resuts);
     }
 
     fetchData();
