@@ -70,24 +70,24 @@ export const apps: AppsProps[] = [
     icon: appsIcons.aboutMe,
     slug: 'aboutMe',
   },
-  // {
-  //   id: randomUUID(),
-  //   name: appsNames.games,
-  //   icon: appsIcons.games,
-  //   slug: 'games',
-  // },
+  {
+    id: randomUUID(),
+    name: appsNames.games,
+    icon: appsIcons.games,
+    slug: 'games',
+  },
   {
     id: randomUUID(),
     name: appsNames.recentProjects,
     icon: appsIcons.recentProjects,
     slug: 'recentProjects',
   },
-  // {
-  //   id: randomUUID(),
-  //   name: appsNames.tracks,
-  //   icon: appsIcons.tracks,
-  //   slug: 'tracks',
-  // },
+  {
+    id: randomUUID(),
+    name: appsNames.tracks,
+    icon: appsIcons.tracks,
+    slug: 'tracks',
+  },
 ];
 
 export const appsComponents: Record<Apps | 'none', ReactNode> = {

@@ -18,62 +18,28 @@ type TrackProps = {
 export const tracks: TrackProps[] = [
   {
     id: randomUUID(),
-    name: '8 Mile',
+    name: 'Original Music from the Motion Picture Ayrton Senna',
     artists: [
       {
-        name: 'Eminem',
-        url: 'https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR',
+        name: 'Antonio Pinto',
+        url: 'https://open.spotify.com/search/' + encodeURIComponent('Antonio Pinto') + '/artists',
       },
     ],
-    albumImage: eightMile,
-    url: 'https://open.spotify.com/track/5NmL2zxnlt9GiTB2TQbvFM?si=0c8a533167684540',
+    albumImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6zlzMOc3npVWI9cBI6_kd_FZaePPHBklrFfhgEO7JtDyXmYG7UBEKw3fxnihIkL31KxE&usqp=CAU',
+    // url: 'https://open.spotify.com/search/' + encodeURIComponent('Ayrton Senna') + '/albums',
+    url: 'https://open.spotify.com/intl-pt/album/71j2ZNSAk1jkbagJcpy8IL',
   },
   {
     id: randomUUID(),
-    name: 'Lose Yourself',
+    name: 'Valse a Vapor',
     artists: [
       {
-        name: 'Eminem',
-        url: 'https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR',
+        name: 'Phill Veras',
+        url: 'https://open.spotify.com/search/' + encodeURIComponent('Phill Veras') + '/artists',
       },
     ],
-    albumImage: eightMile,
-    url: 'https://open.spotify.com/track/1v7L65Lzy0j0vdpRjJewt1?si=e15fc07cfe5a4440',
-  },
-  {
-    id: randomUUID(),
-    name: 'Killshot',
-    artists: [
-      {
-        name: 'Eminem',
-        url: 'https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR',
-      },
-    ],
-    albumImage: killshot,
-    url: 'https://open.spotify.com/track/1jo3TwNGCXfNdB5uba3ZVv?si=8b4f68d0eda241ee',
-  },
-  {
-    id: randomUUID(),
-    name: 'The Way I Am',
-    artists: [
-      {
-        name: 'Eminem',
-        url: 'https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR',
-      },
-    ],
-    albumImage: theMarshallMathersLP,
-    url: 'https://open.spotify.com/track/23wfXwnsPZYe5A1xXRHb3J?si=8ca0b9259a174574',
-  },
-  {
-    id: randomUUID(),
-    name: 'Kill You',
-    artists: [
-      {
-        name: 'Eminem',
-        url: 'https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR',
-      },
-    ],
-    albumImage: theMarshallMathersLP,
-    url: 'https://open.spotify.com/track/5eGEc27nnhtmcOh6RC890a?si=35aa287f1de44bef',
+    albumImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa4AOcqtHLxRI8bddin3mWklYUspm1YE4vAA&s',
+    // url: 'https://open.spotify.com/search/' + encodeURIComponent('Valse a Vapor') + '/albums',
+    url: 'https://open.spotify.com/intl-pt/track/259yZvDXJBJuWyha8DXMzU',
   },
 ];

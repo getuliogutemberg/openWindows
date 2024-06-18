@@ -18,6 +18,12 @@ export function Tracks() {
               key={track.id}
             >
               <div className='flex items-center gap-6'>
+                {/* <img
+                  src={track.albumImage}
+                  alt={track.name}
+                  className='h-20 lg:h-24'
+                /> */}
+
                 <img
                   src={track.albumImage}
                   alt={track.name}
