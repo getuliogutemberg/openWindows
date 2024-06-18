@@ -77,7 +77,7 @@ pnpm dev
 
 ## 🌎 Deploy
 
-To check out the deploy, access https://site.vercel.app/
+To check out the deploy, access [https://site.vercel.app/](https://open-windows.vercel.app/)
 
 ## Enjoy this project!
 
