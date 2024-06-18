@@ -13,11 +13,12 @@ export function useFetchRecentProjects() {
       const data = (await response.json()) as ProjectProps[];
 
       const projetsToShownames: string[] = [
-        // 'ClioBalaPage',
-        // 'sistema',
-        // 'getuliogutemberg',
-        // 'liununu',
-        // 'lavaexperience',
+        'responsive-layout',
+        'next-social-api',
+        'biketrack-telemetry-app',
+        'socketapp',
+        'dashboard',
+        'lavaexperience',
       ];
 
       const projectsToNotShowNames: string[] = [
