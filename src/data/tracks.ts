@@ -1,8 +1,6 @@
 import { v4 as randomUUID } from 'uuid';
 
-import eightMile from '/tracks/8-mile.jpg';
-import killshot from '/tracks/killshot.jpg';
-import theMarshallMathersLP from '/tracks/the-marshall-mathers-lp.jpg';
+
 
 type TrackProps = {
   id: string;
@@ -42,4 +40,5 @@ export const tracks: TrackProps[] = [
     // url: 'https://open.spotify.com/search/' + encodeURIComponent('Valse a Vapor') + '/albums',
     url: 'https://open.spotify.com/intl-pt/track/259yZvDXJBJuWyha8DXMzU',
   },
+  
 ];
