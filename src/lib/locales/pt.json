@@ -1,0 +1,29 @@
+{
+  "close-app.header.copyright": "Feito por",
+  "close-app.main.subtitle": "Getulio Gutemberg.",
+  "close-app.main.button": "Iniciar",
+
+  "title.turn-off": "Desligar",
+  "title.wi-fi": "Conectado",
+  "title.battery": "Status da bateria: 100%",
+  "title.notifications": "Nenhuma notificação",
+  "title.close-app": "Fechar App",
+  "title.start": "Iniciar",
+
+  "apps.about-me": "Sobre Mim",
+  "apps.tracks": "Meu Top Músicas",
+  "apps.games": "Meu Top Jogos",
+  "apps.recent-projects": "Trabalho Recente",
+  "apps.discord": "Meu Discord",
+
+  "start-menu.main.pinned-apps": "Aplicativos",
+  "start-menu.main.recommended-projects": "Projetos",
+  "start-menu.placeholder": "Pesquisar no Google",
+
+  "about-me.paragraph-1": "Eai! Eu sou Getulio Gutemberg, um desenvolvedor Frontend.",
+  "about-me.paragraph-2": "Eu comecei a minha jornada na programação Web em 2021 e meu objetivo atual é alcançar Plenitude em desenvolvimento de aplicativos, e eventualmente, atingir o posto de Tech Lead.",
+  "about-me.paragraph-3": "No momento, minha principal stack inclui HTML, CSS, Javascript, Typescript, React, Next.js, e TailwindCSS.",
+  "about-me.paragraph-4": "Como programador, eu tenho alguns hobbies padrão, como jogar videogames, (você pode conferir alguns deles no  App de Games, no Menu Iniciar), escutar muita música, especialmente Murica (você também pode ver alguma das minhas músicas favoritas no App de Tracks), pedalar, e, claro, programar.",
+  "about-me.paragraph-5": "Quer falar sobre o mundo Tech, jogos, ou esportes? Manda uma mensagem!",
+  "about-me.paragraph-6": "Confira meu portfólio aqui:"
+}
