@@ -1,16 +1,18 @@
 ![image](./.github/preview.png)
 
-# 💻Cristian OS
+# 💻OpenWindows
 
 [README PT-BR](./README-pt.md)
 
-This project simulates a Operational System based on Windows. The application tells a little more about me, my hobbies and my life.
-It also integrates with [Github API](https://docs.github.com/en/rest) to show the recent repositories that I'm working on.
+Windows system simulator for the web.
+It contains some information about who I am, my projects, and my life.
+Integrated with the [Github API](https://docs.github.com/en/rest), it shows the projects I work on.
 
-You can know something about me, and have a little fun browsing by the application!
 
-> ⚠️ Feel free to [contact me](https://portfolio-chi-lemon-51.vercel.app/contact/), and share your **_feedback_** and **_insights_**, or report a **_bug_**!
 
+
+
+> ⚠️ [Contact me](https://site.vercel.app/contact/) me to write messages and **_ideas_**, or even report a **_bug_** !
 <p>
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#learning">What I've Learned</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -48,7 +50,7 @@ During the development, I've discovered new things, such as:
 Firstly, you need to **clone the project** on your machine:
 
 ```bash
-git clone https://github.com/cristian-sbardelotto/cristian-os
+git clone https://github.com/getuliogutemberg/openWindows.git
 ```
 
 After that, open the project folder and **install the dependencies:**
@@ -75,11 +77,11 @@ pnpm dev
 
 ## 🌎 Deploy
 
-To check out the deploy, access https://cristian-os.vercel.app/
+To check out the deploy, access https://site.vercel.app/
 
 ## Enjoy this project!
 
-Developed with 🧡 by **Cristian Sbardelotto**.
+Recreated by **Getulio Gutemberg**.
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cristian-k-sbardelotto/)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cristian-sbardelotto)
