@@ -74,7 +74,7 @@ pnpm dev
 
 ## 🌎 Deploy
 
-Para conferir o deploy, acesse https://openwindows.vercel.app/
+Para conferir o deploy, acesse [https://openwindows.vercel.app/](https://open-windows.vercel.app/)
 
 ## Aproveite esse projeto!
 
