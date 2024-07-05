@@ -16,9 +16,10 @@ import notificationsIcon from '/notifications-icon.svg';
 type TaskbarProps = {
   onStartClick: () => void;
   isMenuOpen: boolean;
+  toggleNotifications: () => void;
 };
 
-export function Taskbar({ onStartClick, isMenuOpen }: TaskbarProps) {
+export function Taskbar({ onStartClick, isMenuOpen, toggleNotifications  }: TaskbarProps) {
 
 
 
@@ -131,6 +132,7 @@ export function Taskbar({ onStartClick, isMenuOpen }: TaskbarProps) {
           alt='Notifications Icon'
           title={t('title.notifications')}
           className='w-5 h-5'
+          onClick={() => toggleNotifications()}
         />
       </div>
     </section>

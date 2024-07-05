@@ -65,9 +65,9 @@ export function CloseAppPage() {
           className='rounded-full shadow-profile-img w-36 h-36 md:w-48 md:h-48'
         />
 
-        <h1 className='text-3xl font-semibold md:text-4xl'>Open Windows</h1>
+        <h1 className='text-3xl  font-semibold md:text-4xl'>Open Windows</h1>
 
-        <p className='-mt-4 text-[#A8A2A2] font-light text-lg md:text-xl'>
+        <p className='-mt-4 text-zinc-100 font-light text-lg md:text-xl'>
           {t('close-app.main.subtitle')}
         </p>
 

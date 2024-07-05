@@ -5,17 +5,27 @@ import { Taskbar } from '../components/Taskbar';
 
 import { AppContext } from '../context/App';
 import { appsComponents } from '../data/apps';
+import { NotificationsTab } from '../components/NotificationsTab';
+import { notificationsProps } from '../data/notifications';
+import { t } from 'i18next';
 
 
 export function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isNotificationsOpen, setIsNotificationsOpen] = useState(false);
+  const [notificationShow, setNotificationShow] = useState<notificationsProps>();
   const { openedApp, openApp } = useContext(AppContext);
+
+
 
   function toggleMenu() {
     setIsMenuOpen(previous => !previous);
   }
 
-  
+  useEffect(() => {
+    notificationShow !== undefined && setTimeout(() => setNotificationShow(undefined), 5000);
+  }
+  , [ notificationShow]);
   
 
   useEffect(() => {
@@ -60,15 +70,19 @@ export function HomePage() {
 
   return (
     <>
-      <div className='absolute w-full h-full md:h-[calc(100vh-50px)]  flex flex-col items-start md:justify-end animate-appear overflow-hidden'>{isMenuOpen ? <StartMenu openApp={openApp} /> : null}</div>
 
-      <div className='absolute w-full h-full overflow-hidden'
-      >{openedApp !== 'none' ? appsComponents[openedApp] : null}</div>
+      {openedApp !== 'none' ? <div className='absolute w-full h-full overflow-hidden'>{appsComponents[openedApp]}</div> : null}
+
+      {isMenuOpen ? <div className='absolute w-full h-full md:h-[calc(100vh-50px)]  flex flex-col items-start md:justify-end animate-appear overflow-hidden'> <StartMenu openApp={openApp} closeMenu={() => setIsMenuOpen(false)}  /> </div>: null}
+      {isNotificationsOpen ? <div className='absolute w-full h-full md:h-[calc(100vh-50px)]  flex flex-col items-end md:justify-end animate-appear overflow-hidden'><NotificationsTab openNotification={() => setIsNotificationsOpen(false)} setNotificationShow={(data : notificationsProps) => setNotificationShow(data)} /></div> : null}
+      {notificationShow ? <div className='absolute animate-appear overflow-hidden bg-white/10 right-10 rounded-xl px-4 py-3 mx-[20px] my-[10px] hover:bg-white/20 transition-all duration-300 hover:cursor-pointer duration-[600ms] w-fit'>{t('notifications.main') + ': '}{notificationShow.content}</div> : null}
+
 
       <footer className='absolute bottom-0 w-full h-[100px] sm:h-[50px] overflow-hidden'>
         <Taskbar
           onStartClick={toggleMenu}
           isMenuOpen={isMenuOpen}
+          toggleNotifications={() => setIsNotificationsOpen(previous => !previous)}
 
         />
       </footer>

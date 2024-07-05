@@ -25,5 +25,8 @@
   "about-me.paragraph-3": "No momento, minha principal stack inclui HTML, CSS, Javascript, Typescript, React, Next.js, e TailwindCSS.",
   "about-me.paragraph-4": "Como programador, eu tenho alguns hobbies padrão, como jogar videogames, (você pode conferir alguns deles no  App de Games, no Menu Iniciar), escutar muita música, especialmente Murica (você também pode ver alguma das minhas músicas favoritas no App de Tracks), pedalar, e, claro, programar.",
   "about-me.paragraph-5": "Quer falar sobre o mundo Tech, jogos, ou esportes? Manda uma mensagem!",
-  "about-me.paragraph-6": "Confira meu portfólio aqui:"
+  "about-me.paragraph-6": "Confira meu portfólio aqui:",
+  
+  "notifications.main": "Notificações",
+  "notification.body": "Voce tem novas notificações"
 }

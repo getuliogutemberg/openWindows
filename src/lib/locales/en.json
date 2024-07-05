@@ -26,5 +26,8 @@
   "about-me.paragraph-3": "At the moment, my main stack includes HTML, CSS, JavaScript, TypeScript, React, Next.js, and TailwindCSS.",
   "about-me.paragraph-4": "As a programmer, I have some standard hobbies like playing video games (you can check out some of them in the Game App in the Start Menu), listening to a lot of music, especially Murica (you can also see some of my favorite tracks in the Tracks App), cycling, and, of course, programming.",
   "about-me.paragraph-5": "Want to talk about the Tech world, games, or sports? Send me a message!",
-  "about-me.paragraph-6": "Check out my portfolio here:"
+  "about-me.paragraph-6": "Check out my portfolio here:",
+
+  "notifications.main": "Notifications",
+  "notification.body": "You have new notifications"
 }

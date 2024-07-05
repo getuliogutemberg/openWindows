@@ -15,15 +15,20 @@ import { StartProject } from './StartProject';
 
 type StartMenuProps = {
   openApp: (app: Apps) => void;
+  closeMenu: () => void;
+ 
   
 };
 
-export function StartMenu({ openApp }: StartMenuProps) {
+export function StartMenu({ openApp, closeMenu }: StartMenuProps) {
   const { t } = useTranslation();
 
   return (
-    <div className='relative rounded-lg z-50 inset-0  px-0 w-full md:w-fit h-fit md:pl-0 md:max-w-[650px]  animate-appear md:animate-appear-down bg-red-500 '>
-      <section className='p-5 rounded-t-lg space-y-4 sm:space-y-5 bg-start-menu '>
+    <div 
+      className='relative rounded-lg z-50 inset-0  px-0 w-full md:w-fit h-fit md:pl-0 md:max-w-[650px]  animate-appear md:animate-appear-down bg-red-500 '
+      onMouseLeave={() => setTimeout(() => closeMenu(), 1500)}
+    >
+      <section className='p-5 rounded-t-lg space-y-4 sm:space-y-5 bg-start-menu ' >
         <form
           onSubmit={e => searchOnGoogle(e)}
           className='relative'
