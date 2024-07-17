@@ -13,16 +13,17 @@ export function useFetchRecentProjects() {
       const data = (await response.json()) as ProjectProps[];
 
       const projetsToShownames: string[] = [
-        'responsive-layout',
+        'esp32-dashboard',
         'next-social-api',
-        'biketrack-telemetry-app',
-        'socketapp',
         'dashboard',
         'lavaexperience',
       ];
-
+      
       const projectsToNotShowNames: string[] = [
+        'responsive-layout',
+        'biketrack-telemetry-app',
         'openWindows',
+        'socketapp',
         'crepsesalgados',
         'ClioBalaPage',
         'sistema',
